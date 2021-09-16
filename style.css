@@ -2,15 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+
+    /* colors */
+    --mount-meadow: #1bbc9c;
+    --white-smoke: #f0f0f0;
+    --night-rider: #343434;
+    --black: #191b17;
+    --transition: all 0.5s ease-in-out;
+}
+
+html {
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 300;
+    /* line-height: 1.5; */
+    /* text-rendering: optimizeLegibility; */
+    /* scroll-behavior: smooth; */
+}
+
+img {
+    width: 100%;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
 
 li {
     list-style-type: none;
+    display: flex; /* TODO: organizar o display do contato do header e add icons */
 }
 
 header {
