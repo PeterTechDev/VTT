@@ -71,12 +71,86 @@ h1, h2, h3{
     flex-direction: column;
     justify-content: stretch;
 }
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+.logo-and-toggler{
+    font-size: 1.65rem;
+    padding: .8rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-toggler{
+    border: none;
+    color: var(--green-vtt);
+}
+.navbar-nav{
+    margin: 0.2rem 0 0.6rem 0;
+}
+.nav-item{
+    padding: 0.6rem 0;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    opacity: 0.65;
+    transition: var(--transition);
+}
+.nav-link:hover{
+    color: var(--green-vtt)!important;
+}
+.navbar-collapse{
+    display: none;
+}
 .hero-div{
     flex: 1;
     flex-direction: column;
     text-align: center;
 }
-
+.hero-div h1{
+    text-transform: none;
+    font-size: 2.55rem;
+    padding-bottom: .4rem;
+}
+.hero-div p {
+    color: var(--white-smoke);
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+}
+.hero-btns{
+    margin-top: 2.8rem;
+}
+.hero-btns button{
+    border: 3.5px solid #fff;
+    border-radius: 2rem;
+    padding:.8rem 2rem;
+    text-transform: uppercase;
+}
+.btn-about-us{
+    color: #fff;
+    display: none;
+}
+.btn-trans:hover{
+    background: var(--green-vtt);
+    border-color: var(--green-vtt);
+}
+.btn-quote{
+    background: #fff;
+    background: var(--night-rider) ;
+    transition: var(--transition);
+}
+.btn-quote:hover{
+    background: transparent;
+    color: #fff;
+}
 
 #logo-header {
     width: 40px;
