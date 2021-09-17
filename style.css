@@ -214,6 +214,13 @@ h1, h2, h3{
 .about-us .title{
     text-align: left;
 }
+.about-us-text {
+
+}
+.about-us-right img {
+    width: 80%;
+    margin: 0 auto;
+}
 
 .about-us .row{
     margin-top: 2rem;
@@ -225,7 +232,18 @@ h1, h2, h3{
     position: relative;
 }
 
-
+/* MEDIA QUERIES */
+@media screen and (min-width: 992px){
+    .about-us .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 2rem;
+    }
+    .about-us-right{
+        display: flex;
+    } 
+}
 
 @media screen and (min-width: 1200px){
     .hero-div h1 {
