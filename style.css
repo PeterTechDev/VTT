@@ -58,6 +58,26 @@ h1, h2, h3{
     align-items: center;
 }
 
+/* HEADER */
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(assets/hero-banner.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.hero-div{
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 #logo-header {
     width: 40px;
 }
