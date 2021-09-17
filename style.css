@@ -157,3 +157,56 @@ h1, h2, h3{
 #logo-header {
     width: 40px;
 }
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width:992px){
+    .navbar{
+        background: transparent;
+        margin-top: 1.4rem;
+    }
+    .navbar .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+    .navbar-collapse{
+        display: block!important;
+    }
+    .navbar-nav{
+        display: flex;
+        margin: 0;
+    }
+    .nav-item{
+        margin-left: 1.8rem;
+    }
+    .nav-link{
+        color: var(--white-smoke);
+    }
+    .hero-div h1{
+        font-size: 3.8rem;
+    }
+    .btn-about-us{
+        display: inline-block;
+        margin-right: .8rem;
+    }
+
+    /* NAVBAR */
+    .navbar{
+        -webkit-box-shadow: 0 2px 5px 0 rgba(207, 205, 207, 0.3);
+        -moz-box-shadow: 0 2px 5px 0 rgba(207, 205, 207, 0.3);
+        box-shadow: 0 2px 5px 0 rgba(207, 205, 207, 0.3);
+        margin-top: 0;
+        background: #fff;
+    }
+    .navbar .navbar-logo{
+        color: var(--night-rider);
+    }
+    .navbar .nav-link{
+        color: var(--night-rider);
+    }
+}
+
