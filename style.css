@@ -136,20 +136,22 @@ h1, h2, h3{
 }
 .btn-about-us{
     color: #fff;
+    transition: var(--transition);
     display: none;
 }
-.btn-trans:hover{
+.btn-about-us:hover{
     background: var(--green-vtt);
     border-color: var(--green-vtt);
 }
 .btn-quote{
     background: #fff;
-    background: var(--night-rider) ;
+    color: var(--night-rider) ;
     transition: var(--transition);
 }
 .btn-quote:hover{
     background: transparent;
     color: #fff;
+    letter-spacing: 1.5px;
 }
 
 #logo-header {
