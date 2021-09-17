@@ -210,6 +210,23 @@ h1, h2, h3{
     }
 }
 
+/*  ABOUT US  */
+.about-us .title{
+    text-align: left;
+}
+
+.about-us .row{
+    margin-top: 2rem;
+}
+.about-us-item{
+    margin: 2rem 0;
+}
+.about-us-img{
+    position: relative;
+}
+
+
+
 @media screen and (min-width: 1200px){
     .hero-div h1 {
         width: 70%;
