@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
     <link rel="stylesheet" href="resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
 
+
+    
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="assets/favicon.png" />
 
@@ -133,23 +135,24 @@
                         <form>
                             <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome">
                             <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                            <input type="text" name="telefone" id="telefone" class="form-control" data-mask="(00) 00000-0000" data-mask-selectonfocus="true" placeholder="Telefone"/>
                             <textarea name="textarea" id="textarea" rows="6"
-                                placeholder="Digite sua mensagem"></textarea>
+                                placeholder="Digite sua mensagem" style="resize: none"></textarea>
                             <button type="submit" class="submit-btn">Enviar</button>
                         </form>
                     </div>
 
                     <div class="contact-right">
                         <div>
-                            <h2>Endereço</h2>
+                            <h2>Nosso Endereço</h2>
                             <p>Av. República, 1400 - Interlagos, Linhares - ES, 29903-508</p>
                         </div>
                         <div>
-                            <h2>Telefones</h2>
+                            <h2>nossos telefones</h2>
                             <p>(27) 99935-4629 / (27) 3371-3500</p>
                         </div>
                         <div>
-                            <h2>Email</h2>
+                            <h2>Nosso Email</h2>
                             <p>contato@vaninitt.com</p>
                         </div>
                     </div>
@@ -189,8 +192,9 @@
     <script src="resources/jquery-3.6.0.js"></script>
     <!-- OWL CAROUSEL -->
     <script src="resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <!-- mask plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- SCRIPT -->
     <script src="script.js"></script>
 </body>
-
 </html>
