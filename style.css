@@ -211,39 +211,40 @@ h1, h2, h3{
 }
 
 /*  ABOUT US  */
-.about-us .title{
-    text-align: left;
+.about-us .row {
+    border: blue solid 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 2rem;
 }
-.about-us-text {
+.feature-left {
+    border: red solid 5px;
+    overflow: hidden;
+    /* flex: 1; */
+    /* width: 40%; */
+    /* height: 300px; */
+}
+.feature-right {
+    flex: 2;
+    border: green solid 5px;
 
 }
-.about-us-right img {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.about-us .row{
-    margin-top: 2rem;
-}
-.about-us-item{
-    margin: 2rem 0;
-}
-.about-us-img{
-    position: relative;
+.owl-carousel img{
+    border: pink solid 5px;
+    height: 300px;
+    width: 20vw;
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 992px){
+/* @media screen and (min-width: 992px){
     .about-us .row {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2fr, 1fr);
         align-items: center;
         column-gap: 2rem;
     }
-    .about-us-right{
-        display: flex;
-    } 
-}
+} */
 
 @media screen and (min-width: 1200px){
     .hero-div h1 {

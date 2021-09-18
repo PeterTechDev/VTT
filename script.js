@@ -18,12 +18,12 @@ $(document).ready(()=>{
 
     // owl carousel
     $('.owl-carousel').owlCarousel({
+        items:1,
         loop: true,
         margin: 10,
         autoplay: true,
-        dots: true,
+        dots: false,
         nav: false,
-        responsiveClass: true,
         responsive:{
             0:{
                 items:1
