@@ -162,19 +162,15 @@ h1, h2, h3{
 }
 
 /*  ABOUT US  */
-.about-us .row {
-    margin: 2rem auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    column-gap: 2rem;
+.about-us {
+    margin-top: 3rem;
 }
 .feature-left {
     overflow: hidden;
-
 }
+
 .feature-right {
-    margin-top: -5rem;
+    margin-top: 2rem;
 }
 .about-us-item h3{
     color: red;
@@ -267,6 +263,19 @@ margin-top: 2rem;
 
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 768px){
+    .about-us .row {
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 2rem;
+}
+    .about-us-item {
+        margin: 0;
+    }
+}
+
 @media screen and (min-width:992px){
     .navbar{
         background: transparent;
@@ -316,6 +325,19 @@ margin-top: 2rem;
         color: var(--night-rider);
     }
 
+    /* ABOUT US */
+    .about-us .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 2rem;
+    }
+    .feature-right{
+        margin-top: 0;
+    }
+
+
+    
     /* CONTACT */
     .contact .row{
         display: grid;
