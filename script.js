@@ -1,6 +1,7 @@
 const $window = $(window);
 
 $(document).ready(()=>{
+
     // header toggle
     $('#navbar-toggler').click(()=>{
         $('.navbar-collapse').slideToggle(400);

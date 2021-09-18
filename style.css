@@ -80,6 +80,11 @@ h1, h2, h3{
     background-color: #fff;
     z-index: 999;
 }
+.navbar-logo{
+    font-family: 'Monoton', cursive;
+    color: var(--green-vtt);
+    font-size: 2rem;
+}
 .logo-and-toggler{
     font-size: 1.65rem;
     padding: .8rem 0;
@@ -270,9 +275,17 @@ margin-top: 2rem;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 2rem;
-}
+    }
     .about-us-item {
         margin: 0;
+    }
+    .contact .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+    .contact-right > div:first-child{
+        margin-top: 0;
     }
 }
 
@@ -335,8 +348,6 @@ margin-top: 2rem;
     .feature-right{
         margin-top: 0;
     }
-
-
     
     /* CONTACT */
     .contact .row{
@@ -346,6 +357,21 @@ margin-top: 2rem;
     }
     .contact-right > div:first-child{
         margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .hero-div h1{
+        /* width: 70%; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact .row{
+        column-gap: 4rem;
+    }
+    .contact-right{
+        padding-left: 4rem!important;
     }
 }
 
